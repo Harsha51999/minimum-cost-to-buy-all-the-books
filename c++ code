@@ -9,6 +9,7 @@ int getMinCost(int ratings[], int n) {
  }
 
 
+
  for (int i = 1; i < n; i++)
  if (ratings[i] > ratings[i - 1])
  LtoR[i] = LtoR[i - 1] + 1;
