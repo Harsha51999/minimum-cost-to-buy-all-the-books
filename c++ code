@@ -47,3 +47,4 @@ int main() {
  int n = sizeof(ratings) / sizeof(ratings[0]);
  cout << "Minimum cost is: " << getMinCost(ratings, n);
 }
+
